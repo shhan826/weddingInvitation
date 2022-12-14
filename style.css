@@ -31,7 +31,7 @@ a {
 
 /* Content Elements */
 body {
-    background: #fff;
+    background: #FFFFFA;
     color: #000;
     text-align: center;
 }
@@ -79,7 +79,7 @@ img {
     line-height:2.5;
 }
 #date {
-    margin:2rem;
+    margin:1rem;
     line-height:2;
 }
 #address {
@@ -87,13 +87,6 @@ img {
 }
 /* NitPicky Stylings */
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;
-        color: #ddd;
-    }
-}
 
 /* Dynamic layout */
 @media(max-width: 600px) {
