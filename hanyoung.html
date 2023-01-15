@@ -8,48 +8,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://shhan826.github.io/weddingInvitation/">
+		<meta property="og:url" content="https://shhan826.github.io/weddingInvitation/hanyoung">
 		<meta property="og:title" content="한영과 상훈의 결혼식에 초대합니다">
 		<meta property="og:site_name" content="한영과 상훈의 결혼식에 초대합니다">
 		<meta property="og:description" content="2023년 5월 5일 서울대학교 교수회관">
-		<meta property="og:image" content="img/IMG_2405.jpg">
+		<meta property="og:image" content="img/9.jpeg">
 
 		<link rel="stylesheet" href="style.css" type="text/css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 	</head>
+
 	<body>
 		<style>
 		  body, h1, h2, h3, h4, h5, h6, p, span, div {
 				font-family: 'Nanum Myeongjo', serif;
 		  }
 		</style>
+
 		<div class="imageContainer">
-			<img src="img/IMG_2405.jpg" id="mainImage">
+			<a href="index.html">
+				<img src="img/9.jpeg" id="mainImage">
+			</a>
 		</div>
+
 		<script>
-			var el = document.getElementById('mainImage');
-			let today = new Date();
-			let todayHour = today.getHours();
-			if (todayHour > 18 || todayHour < 6) {
-				console.log(todayHour);
-				el.setAttribute('src', "img/6.jpeg");
-			}
+			var mainImageElement = document.getElementById('mainImage');
+			const randomPictureNumber = Math.floor(Math.random() * 9 + 1);
+			mainImageElement.setAttribute('src', "img/" + randomPictureNumber + ".jpeg");
 		</script>
+
 		<br>
-
 		<h1 style='line-height: 1.5;'> 한영과 상훈<br> 결혼식에 초대합니다 </h1>
-
 		<div style='margin: 2rem; line-height: 2.5;'>
 			전승석 · 김경희<span class="suffix">의 &nbsp&nbsp딸,</span> <span style="font-weight:bold">&nbsp전한영</span><br>
 			한장수 · 장점희<span class="suffix">의 아들,</span> <span style="font-weight:bold">한상훈</span>
 		</div>
-
 		<br>
 		<hr style="width:50px; margin: auto;" />
 		<br><br>
-
 		<h2> 초대의 말 </h2>
 		<p>
 		오랜 기다림 속에서 저희 두 사람,  <br>
@@ -60,26 +58,25 @@
 		더없는 기쁨으로 간직하겠습니다. <br>
 		<br>
 		</p>
-
 		<br>
 		<hr style="width:50px; margin: auto;" />
 		<br><br>
-
 		<h2>일시 및 장소</h2>
 		<div id="date">
 			2023년 5월 5일 금요일 낮 12시 30분 <br>
 			서울대학교 교수회관<br>
 			<span id="address">(서울 관악구 관악로 1 65동)</span>
 		</div>
-
 		<div align="center" max-width="600px">
 		<div id="daumRoughmapContainer1665482160882" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+	  </div>
 		<br>
 		<br>
 		<br>
 		<br>
 		<hr style="width:50px; margin: auto;" />
 		<br><br><br><br>
+		<div align="center" style="max-width: 600px; margin: auto">
 		<a href="https://photos.app.goo.gl/i1st4jepgVAtZpvU6" target="_blank">
 			<div class="grid-container">
 				<img class="grid-item" src="img/1.jpeg">
@@ -93,6 +90,7 @@
 				<img class="grid-item" src="img/9.jpeg">
 		  </div>
 		</a>
+  	</div>
 		<br>
 
 		<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
